@@ -69,7 +69,7 @@ def load_new_data(text_data, faiss_vectorstore, index_name):
     return faiss_vectorstore
 
 def generate_dream_state(faiss_retriever, llm):
-    dream_prompt = "Select a random pivotal moment from this vectorDB ONLY and create an imaginative fictional story around it."
+    dream_prompt = "Select a random pivotal moment from this vectorDataFour ONLY and create an imaginative fictional story around it."
     dream_result = llm(dream_prompt)
     return dream_result
 
