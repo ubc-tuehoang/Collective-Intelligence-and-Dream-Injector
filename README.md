@@ -12,6 +12,9 @@ Completely self-contained, featuring Multi-VectorDB, Multi-LLM Model, Multi-Dime
 
 ------------------------------
 
+![alt text](image.png)
+
+
 This POC represents a significant advancement,  presenting innovative ideas for creating intelligent systems that are both adaptive and collaborative. With the fusion of RAG with collective intelligence through VectorDB sets a new standard for dynamic and interactive AI solutions, particularly with the implementation of Dream-Injector. Meanwhile, Dream-Infusion continues to be an emerging concept, poised for further exploration. 
 
 
