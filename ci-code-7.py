@@ -73,7 +73,7 @@ def load_new_data(text_data, faiss_vectorstore, index_name):
     return faiss_vectorstore
 
 def generate_dream_state(faiss_retriever, llm):
-    dream_prompt = "Select a random pivotal moment from this Matrix ONLY and create an imaginative fictional story around it."
+    dream_prompt = "Select a random pivotal moment from this vectorDB ONLY and create an imaginative fictional story around it."
     dream_result = llm(dream_prompt)
     return dream_result
 
@@ -101,7 +101,7 @@ def check_port(port):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python ci-code-#.py <llm model>")
+        print("Usage: python faiss-llm-feedback.py <llm model>")
         sys.exit(1)
 
     llm_model = sys.argv[1]
