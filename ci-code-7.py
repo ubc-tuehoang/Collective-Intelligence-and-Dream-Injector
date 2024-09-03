@@ -166,8 +166,9 @@ if __name__ == "__main__":
         print(f"\nPort {PORT} is not open. Please start the LLM engine.")
         sys.exit(1)
 
-    print(f"\n\nCheck for story in folder ./text_files_directory about Remy.")
-    print(f"\nPrompt suggestions:\nwhat is this story about?")
+    print(f"\n\nCheck for readme in vectorData folders.")
+    print(f"\nPrompt suggestion 1:\nwhat is this story about?")
+    print(f"\nPrompt suggestion 2:\ntell me about the current dreams in the matrix.")
 
     while True:
         if not check_port(PORT):
