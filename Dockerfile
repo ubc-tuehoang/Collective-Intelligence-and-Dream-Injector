@@ -64,3 +64,9 @@ CMD [ "echo", "Successfully installed!" ]
 
 ## for command to trigger dream thread: "dream <seconds> <llm model>"
 #> Enter your query (type 'exit' to quit): dream 60 ollama3.1
+
+## for listen to the Dreams output
+## CREATE A NEW BASH
+#> python list-port.py 
+
+

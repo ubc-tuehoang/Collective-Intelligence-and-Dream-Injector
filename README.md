@@ -24,3 +24,9 @@ This collaborative environment allows for dynamic learning and adaptation, with 
 As the Dream-Injector introduces new, creative inputs, it influences the connections between nodes, effectively reshaping the relationships and hierarchies within the network. This process allows the system to explore a wider range of solutions, uncover hidden patterns, and innovate beyond standard computational methods. The dynamic weighting of nodes, influenced by the Dream-Injector, ensures that the system continually evolves, pushing the boundaries of what is possible in both problem-solving and creative thinking, yet still influenced by the seeds.  
 
 Keywords: Collective Intelligence, Vectors, VectorDB, Consciousness, Artificial Intelligence, RAG, ANN, Inclusivity, Machine Learning, Data Assimilation, Borg.
+
+-------------------------
+
+## on Github Codespaces with 16-core
+
+![alt text](image.png)
